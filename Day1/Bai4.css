@@ -1,0 +1,26 @@
+.phone-book {
+  position: relative;
+}
+.phone-book-container {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  width: 600px;
+  min-height: 500px;
+  padding: 10px;
+  border: 1px solid lightgrey;
+}
+.phone-book-header {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+}
+
+.phone-book-function {
+  margin: 20px 0 0;
+  display: flex;
+  justify-content: center;
+}
